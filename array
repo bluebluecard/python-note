@@ -1,5 +1,24 @@
+数组的变形操作：
 
-数组内部的操作：
+np.reshape() np.resize()
+np.transpose()
+np.flatten() np.ravel()
+np.sequeeze()
+
+数组选择元素操作：
+
+np.take()取元素或者沿轴取
+np.put()替换数组中的元素值
+np.repeat()重复数组的元素
+np.choose()不懂什么奇怪的操作?????
+np.sort()在原来数组的基础上排序，更改原来的数组 np.argsort() 返回排序后的index
+np.partition()很奇怪的排序 np.argpartition()
+np.searchsorted() 寻找插入一个特定元素，还能保持原来的顺序的index
+np.nonzero()寻找非0值(False)的index
+np.compress()
+np.diagonals()返回对角线
+
+数组内部的计算操作：
 
 np.max() np.min()
 np.argmax() np.argmin()
