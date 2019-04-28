@@ -1,0 +1,9 @@
+
+数组内部的操作：
+
+np.max() np.min()
+np.argmax() np.argmin()
+np.clip() np.round() np.ptp()
+np.sum() np.cumsum() np.prod() np.cumprod() np.mean() np.var() np.std()
+np.all() np.any()
+
